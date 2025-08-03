@@ -1,4 +1,4 @@
-// cleanScan.js - scans code for suspicious keywords/imports
+const { v4: uuidv4 } = require('uuid');// cleanScan.js - scans code for suspicious keywords/imports
 
 const fs = require('fs');
 const path = require('path');

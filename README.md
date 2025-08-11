@@ -1,2 +1,1 @@
-# DevAssist4-2-0Aug1st2025
-Ai security AI that polices AI
+https://github.com/Ustream4free-com/DevAssist4-2-0/blob/main/README.md

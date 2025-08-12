@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>DevAssist Security Monitor</string>
+	<key>CFBundleDisplayName</key>
+	<string>DevAssist</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSMainStoryboardFile</key>
+	<string>Main</string>
+	<key>NSUserNotificationAlertStyle</key>
+	<string>alert</string>
+	<key>LSUIElement</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.security</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSSupportsAutomaticGraphicsSwitching</key>
+	<true/>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>This app uses speech recognition to provide voice alerts and notifications about security threats.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app needs microphone access for speech synthesis and voice alerts.</string>
+</dict>
+</plist>

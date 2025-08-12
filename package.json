@@ -1,0 +1,15 @@
+{
+  "name": "devassist4-2-0aug1st2025",
+  "version": "1.0.0",
+  "description": "**AI Security AI that Polices AI** - Complete multi-platform security monitoring solution with continuous threat detection, Siri voice alerts, SMS notifications, and Picture-in-Picture support.",
+  "main": "cleanScan.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^11.1.0"
+  }
+}

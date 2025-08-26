@@ -1,0 +1,14 @@
+name: DevAssist4-2-0Aug1st2025
+id: ari:cloud:compass:77a2040b-eecb-49e9-8479-7108dfcaa2af:component/e2fb82af-0fbe-4fab-acab-bbbcad4ecf1b/25f9ec68-b589-4152-b9e1-4d3b90510f2f
+description: Ai security AI that polices AI
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links: []
+relationships:
+  DEPENDS_ON: []
+labels:
+  - language:typescript
+  - source:github
+customFields: null

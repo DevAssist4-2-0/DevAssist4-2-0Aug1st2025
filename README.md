@@ -8,8 +8,7 @@ A comprehensive iOS development assistant with AI-powered security monitoring, c
 
 - **Node.js** 18.0.0 or higher
 - **npm** 9.0.0 or higher
-- **Xcode** 15.0+ (for iOS development)
-- **Google Cloud** account (for backend deployment)
+- **Xcode** 15.0+ 
 - **Git** for version control
 
 ### Installation
@@ -68,9 +67,8 @@ Create a `.env.local` file with the following variables:
 
 ```env
 # API Configuration
-NEXT_PUBLIC_API_URL=http://localhost:3001
-OPENAI_API_KEY=your_openai_api_key
-GOOGLE_CLOUD_PROJECT_ID=your_project_id
+
+OPENAI_API_KEY=your_openai_api_
 
 # Security Configuration
 SECURITY_MONITORING=true
@@ -156,8 +154,8 @@ export const SECURITY_CONFIG = {
 │ • AVKit Video   │
 │ • Keychain API  │
 │ • Network Layer │
-│ • Biometrics    │
-└─────────────────┘
+│   │
+└─────────────
 ```
 
 ### Security System (Cross-Platform)
@@ -237,30 +235,6 @@ fastlane match appstore
 2. Generate APNs certificates
 3. Configure in `ios/DevAssist4-2-0/Configuration.swift`
 
-## 🚀 Deployment
-
-### 1. Frontend Deployment (Vercel/Netlify)
-```bash
-# Build and deploy to Vercel
-npm run build
-vercel --prod
-
-# Or deploy to Netlify
-npm run build
-netlify deploy --prod --dir=.next
-```
-
-### 2. Backend Deployment (Google Cloud)
-```bash
-# Deploy to Google Cloud Functions
-npm run deploy:backend
-
-# Or deploy to Google Cloud Run
-gcloud run deploy devassist-api \
-  --source . \
-  --region us-central1 \
-  --allow-unauthenticated
-```
 
 ### 3. iOS App Deployment
 ```bash
@@ -345,7 +319,7 @@ npm run security-scan
 rm -rf ios/build ios/DerivedData
 
 # Reset Xcode
-xcodebuild clean -workspace ios/DevAssist4-2-0.xcworkspace -scheme DevAssist4-2-0
+xcodebuild clean ios/DevAssist4-2scheme DevAssist4-2-0
 
 # Update dependencies
 cd ios && pod install
@@ -517,9 +491,7 @@ Set environment variables: ```bash export NODE_ENV=development export ALLOWED_OR
 Start development server: npm run dev
 Deployment
 
-iOS: Use Xcode's archive and upload to App Store Connect
-Backend: Deploy to Google Cloud Functions using GitHub Actions
-🔐 Security Configuration
+iOS: Use Xcode's archive and upload to App Store 
 
 API Keys
 
